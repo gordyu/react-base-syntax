@@ -22,9 +22,9 @@ class App extends Component {
         </ol>
         <UserInput />
 
-        <UserOutput />
-        <UserOutput />
-        <UserOutput />
+        <UserOutput userName="Gordon" />
+        <UserOutput userName="Gordon One" />
+        <UserOutput userName="Gordon Two" />
       </div>
     );
   }
